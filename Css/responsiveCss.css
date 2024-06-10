@@ -1,0 +1,110 @@
+/* Small devices (phones, 320px and under) */
+@media (max-width: 320px) {
+  .w_50 {
+    width: 70% !important;
+  }
+}
+/* Small devices (phones, 575px and under) */
+@media (max-width: 575px) {
+  .slideshow_container {
+    height: 300px;
+  }
+  .banner_container > div {
+    aspect-ratio: 0;
+  }
+  .small_font {
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .arrow_resizer > button {
+    top: -39px !important;
+  }
+  .slick-next {
+    right: 10px;
+  }
+  .slick-prev {
+    right: 50px;
+  }
+  .w_50 {
+    width: 50%;
+  }
+  .filter_container ul {
+    padding-left: 10px;
+  }
+  .breadcrumbs {
+    font-size: 13px;
+  }
+  .REVIEWS_container form {
+    display: block;
+  }
+  .REVIEWS_container form input,
+  .REVIEWS_container form div textarea,
+  .REVIEWS_container form label {
+    margin: 0;
+  }
+}
+/* Small devices (phones, 576px and up) */
+@media (min-width: 576px) {
+  /* Styles for small devices */
+  .w_sm_35 {
+    width: 35%;
+  }
+}
+/* Medium devices (tablets, 767px and down) */
+@media (max-width: 767px) {
+  .select-items {
+    font-size: 14px;
+  }
+  .arrow_positioning > .slick-next {
+    right: -15px;
+  }
+  .arrow_positioning > .slick-prev {
+    right: 30px;
+  }
+  .slick-prev,
+  .slick-next {
+    top: -102px;
+  }
+  .filter_container {
+    width: 75% !important;
+    margin: 0 auto;
+  }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  /* Styles for medium devices */
+  .list_container {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .list_container > div {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .w_md_25 {
+    width: 25%;
+  }
+  .w_md_46 {
+    width: 46%;
+  }
+  .w_md_75 {
+    width: 75% !important;
+  }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* Styles for large devices */
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Styles for extra large devices */
+  .w_md_25 {
+    width: 15%;
+  }
+}
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1500px) {
+  .box {
+    width: 1440px;
+  }
+}
